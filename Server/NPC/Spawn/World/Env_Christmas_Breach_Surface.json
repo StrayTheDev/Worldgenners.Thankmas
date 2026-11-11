@@ -1,0 +1,29 @@
+{
+  "Environments": [
+    "Env_Christmas_Breach_Plains"
+  ],
+  "NPCs": [
+    {
+      "Weight": 5,
+      "SpawnBlockSet": "Soil",
+      "Id": "Spirit_Frost",
+      "Flock": "One_Or_Two"
+    },
+    {
+      "Weight": 5,
+      "SpawnBlockSet": "Soil",
+      "Id": "Owl_Snow",
+      "Flock": "Group_Medium"
+    },
+    {
+      "Weight": 2,
+      "SpawnBlockSet": "Soil",
+      "Id": "Leopard_Snow",
+      "Flock": "One_Or_Two"
+    }
+  ],
+  "DayTimeRange": [
+    6,
+    18
+  ]
+}

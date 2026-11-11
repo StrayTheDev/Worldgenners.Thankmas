@@ -1,0 +1,79 @@
+{
+  "TranslationProperties": {
+    "Name": "Candy Cane Block"
+  },
+  "SubCategory": "Candy",
+  "ItemLevel": 25,
+  "PlayerAnimationsId": "Block",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Opacity": "Transparent",
+    "Group": "Stone",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "DropList": "Empty",
+        "GatherType": "Rocks"
+      },
+      "UseDefaultDropWhenPlaced": true
+    },
+    "BlockParticleSetId": "Glass",
+    "ParticleColor": "#ffffff",
+    "BlockSoundSetId": "Crystal",
+    "PhysicalMaterialId": "Stone",
+    "CubeShadingMode": "Standard",
+    "VariantRotation": "Pipe",
+    "TextureComputedColor": "#96aab7",
+    "RequiresAlphaBlending": true,
+    "Textures": [
+      {
+        "Sides": "BlockTextures/candy_cane_block.png",
+        "UpDown": "BlockTextures/Candy_Cane_Block_Top.png"
+      }
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ],
+    "Family": [
+      "Crystal"
+    ]
+  },
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "Furniture_Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "GoblinLab_Decoration"
+        ]
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "Food_Candy_Cane",
+        "Quantity": 2
+      }
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Candy_Cane_Block_Full.png",
+  "Categories": [
+    "Thankmas.Structural"
+  ],
+  "Quality": "Thankmas"
+}

@@ -1,0 +1,12 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Snow_Fantasy_Heavy",
+      "PositionOffset": {
+        "Y": 10,
+        "Z": 0
+      },
+      "StartDelay": 0.6
+    }
+  ]
+}
