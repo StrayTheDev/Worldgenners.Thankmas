@@ -1,0 +1,115 @@
+{
+  "Type": "NoiseRange",
+  "Biomes": [
+    {
+      "Min": -0.9,
+      "Max": 0,
+      "Biome": "Mountain_Edge"
+    },
+    {
+      "Biome": "Candy_Cane_Forest",
+      "Min": 0,
+      "Max": 0.5
+    },
+    {
+      "Min": 0.5,
+      "Biome": "Tundra"
+    }
+  ],
+  "DefaultBiome": "Void",
+  "DefaultTransitionDistance": 128,
+  "MaxBiomeEdgeDistance": 32,
+  "Density": {
+    "Type": "Imported",
+    "Name": "Christmas_Breach_Biome_Map"
+  },
+  "SpawnPositions": {
+    "Type": "Imported",
+    "Name": "Spawns"
+  },
+  "Framework": [
+    {
+      "Type": "Positions",
+      "Entries": [
+        {
+          "Name": "World-Biome-Cells",
+          "Positions": {
+            "Type": "Jitter2d",
+            "Skip": false,
+            "Magnitude": 0,
+            "Seed": "World-Biome-Cells",
+            "Positions": {
+              "Type": "Scaler",
+              "Skip": false,
+              "Scale": {
+                "X": 430,
+                "Y": 430,
+                "Z": 430
+              },
+              "Positions": {
+                "Type": "Offset",
+                "Skip": false,
+                "OffsetX": 0,
+                "OffsetY": 0,
+                "OffsetZ": 0,
+                "Offset": {
+                  "X": 0,
+                  "Y": 0,
+                  "Z": 0.5
+                },
+                "Positions": {
+                  "Type": "TriangularGrid2d",
+                  "Skip": false
+                }
+              }
+            }
+          }
+        },
+        {
+          "Name": "Spawns",
+          "Positions": {
+            "Type": "List",
+            "ExportAs": "Spawns",
+            "Positions": [
+              {
+                "X": 0,
+                "Y": 200,
+                "Z": 0
+              },
+              {
+                "X": 30,
+                "Y": 200,
+                "Z": 0
+              },
+              {
+                "X": 10,
+                "Y": 200,
+                "Z": 20
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Type": "DecimalConstants",
+      "Entries": [
+        {
+          "Name": "Base",
+          "Value": 140
+        },
+        {
+          "Name": "Water",
+          "Value": 100
+        },
+        {
+          "Name": "Bedrock",
+          "Value": 0
+        }
+      ]
+    }
+  ],
+  "Tags": {
+    "Template": []
+  }
+}
